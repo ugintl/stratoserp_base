@@ -12,7 +12,6 @@
         "php": ">=7.4",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "ext-posix": "*",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal/admin_toolbar": "^2.3",
@@ -33,6 +32,7 @@
         "drupal/multiple_fields_remove_button": "1.*@dev",
         "drupal/replicate": "^1.0",
         "drupal/replicate_ui": "^1.0",
+        "drupal/stratoserp": "1.x-dev@dev",
         "drupal/token": "^1.7",
         "drupal/toolbar_menu": "^2.2",
         "drupal/twig_tweak": "^3.0",
@@ -42,7 +42,6 @@
         "drupal/xero": "dev-2.x",
         "drush/drush": "^10",
         "oomphinc/composer-installers-extender": "^2.0",
-        "singularo/shepherd-drupal-scaffold": "dev-develop",
         "vlucas/phpdotenv": "^5",
         "webflo/drupal-finder": "^1.0.0",
         "zaporylie/composer-drupal-optimizations": "^1.0"
@@ -61,10 +60,7 @@
     },
     "extra": {
         "composer-exit-on-patch-failure": true,
-        "drupal-scaffold": {
-            "allowed-packages": [
-                "singularo/shepherd-drupal-scaffold"
-            ],
+        "drupal-scaffold": { 
             "locations": {
                 "web-root": "web/"
             }
